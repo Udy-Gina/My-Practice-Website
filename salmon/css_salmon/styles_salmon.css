@@ -1,0 +1,1194 @@
+/* 
+    Created on : Feb 29, 2016, 2:04:03 PM
+    Author     : Gina Udy
+*/
+
+
+/* --------------------------------------------------- SITE-WIDE ------------------------------------------------- */
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Andale Mono", "Times New Roman", serif;
+}
+
+h1 {
+    margin-left: 1em;
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #F04531;
+}
+
+h3 {
+    color: #FFAA33;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* --------------------------------------------------- HEADER ---------------------------------------------------- */
+
+
+/* HEADER */ 
+.logo {
+    width: 25%; 
+    position: absolute;
+    padding-top: 1%;
+}
+
+.mediakayak {
+    display: none;
+}
+
+#medialogo {
+    display: none;
+}
+
+
+/* NAVIGATION BAR */
+#navbar {
+    border-bottom: medium solid #12607E;
+    margin: 0em;
+    float: right;
+    text-align: right;
+    height: 5em; 
+    font-size: 1.5em;
+    font-family: "Andale Mono", "Times New Roman", serif;
+    padding-left: 0em;
+}
+
+#medianavbar {
+    display: none;
+}
+
+#navbar li {
+    position:relative;
+    display:inline-block;
+    padding-top: 2em;
+}
+
+#navbar a {
+    display:inline-block;
+    text-decoration: none;
+    width: 7em; 
+    text-align: center;
+    border-right: thin solid #35B169;
+    color: #FFFFFF;
+}
+
+#contact a {
+    display:inline-block;
+    text-decoration: none;
+    width: 7em; 
+    text-align: center;
+    border-right: none;
+}
+
+#navbar li:hover a {
+    text-decoration:none;
+    color: #FFFFFF; 
+    font-weight: bold;
+} 
+
+
+/* BREADCRUMBS */ 
+ul.breadcrumbs {
+    padding-top: 12%; 
+    padding-left: 35%;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+ul.breadcrumbs li {
+    display: inline;
+    color: #FFAA33;
+}
+
+ul.breadcrumbs li+li:before {
+    padding: .25em; 
+    color: #F04531;
+    content: ">";
+}
+
+ul.breadcrumbs li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------- BODY ----------------------------------------------------- */
+
+
+/* SITE-WIDE BODY FORMAT */
+body { 
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background-image: url(/salmon/images_salmon/skin_river_reflection.jpg); /*  <--- www.buyidahorealestate-realestatewebmas.netdna-ssl.com */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+#wrapper {
+    max-width: 65.6em; 
+    margin: .63em auto .63em auto; 
+    padding: 1.25em;
+    overflow: auto;
+    background-color: rgba(0,0,0,.8);
+    border: medium double #35B169;
+} 
+
+
+/* HOME PAGE CONTENT */
+.maincontent {
+    width: 100%; 
+    padding-top: 3em;
+    margin-left: auto; 
+    margin-right: auto; 
+    color: #FFFFFF;
+} 
+
+.mediamaincontent {
+    display: none;
+} 
+
+.riverblurb {
+    width: 30%;
+    float: left;
+    margin-top: 7%;
+    margin-left: 1.5em; 
+    margin-right: auto; 
+    margin-bottom: auto; 
+    padding: 1em; 
+    text-align: justify;
+    color: #F04531
+}
+
+.mediariverblurb {
+    display: none;
+}
+
+.riverblurb p {
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+.riverblurb p span {
+    color: #12607E;
+    font-size: 1.5em;
+}
+
+#slogan {
+    position: absolute; 
+    margin-top: 0%;
+    margin-left: 51%; 
+    float: right;
+}
+
+#slogan p {
+    color: #FFFFFF;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "Baskerville Old Face", "Times New Roman", serif;
+} 
+
+
+/* IMAGE CAROUSEL */
+#carousel {
+    width: 60%;
+    border: medium double #35B169;
+    float: right;
+}
+
+#mediacarousel {
+    display: none;
+}
+
+/* GUIDES */ 
+.guidesmain {
+    width: 93%;
+    border: medium solid #35B169;
+    margin-top: 8em;
+    background-color: #12607E;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: auto; 
+    padding-left: 1em; 
+    padding-right: 1em;
+}
+
+.guidespic {
+    border: medium double #35B169;
+    width: 11em;
+    float: left;
+    margin-right: 2em; 
+    margin-left: 0%;
+}
+
+.guides {
+    display: inline-block;
+    width: 33%;
+}
+
+.guides figure {
+    padding: 0em; 
+    margin: 0em;
+    width: 100%;
+}
+
+.entryguides {
+    height: 30em;
+    border: medium double #35B169;
+    padding-top: 1em;
+    overflow: auto;
+    background-color: #FFFFFF;
+    margin-right: 1em; 
+    margin-left: 1em; 
+    margin-bottom: 2em;
+    padding-right: 3em; 
+    padding-left: 3em; 
+    padding-bottom: 1em;
+    color: #282A2D;
+} 
+
+.entryguide {
+    border: medium double #35B169;
+    padding-top: 1em;
+    overflow: auto;
+    background-color: #FFFFFF;
+    margin-right: 2em; 
+    margin-left: 2em; 
+    margin-bottom: 2em;
+    padding-right: 1em; 
+    padding-left: 1em; 
+    padding-bottom: 1em;
+    word-wrap: break-word;
+    color: #282A2D;
+}
+
+.entryguides p {
+    color: #282A2D;
+    text-align: justify;
+}
+
+.entryguide p {
+    color: #282A2D;
+    text-align: justify;
+    padding-right: 2em;
+}
+
+
+/* ADVENTURES */ 
+.adventuresmain {
+    width: 93%;
+    border: medium solid #35B169;
+    margin-top: 8em;
+    background-color: #12607E;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: auto; 
+    padding-left: 1em; 
+    padding-right: 1em;
+}
+
+.adventurespic {
+    border: medium double #35B169;
+    width: 11em;
+    float: left;
+    margin-right: 2em; 
+    margin-left: 0%;
+}
+
+.adventures {
+    display: inline-block;
+    width: 33%;
+}
+
+.adventures figure {
+    padding: 0em; 
+    margin: 0em;
+    width: 100%;
+}
+
+.entryadventures {
+    height: 21em;
+    border: medium double #35B169;
+    padding-top: 1em;
+    overflow: auto;
+    background-color: #FFFFFF;
+    margin-right: 1em; 
+    margin-left: 1em; 
+    margin-bottom: 2em;
+    padding-right: 3em; 
+    padding-left: 3em; 
+    padding-bottom: 1em;
+    color: #282A2D;
+} 
+
+.entryadventure {
+    border: medium double #35B169;
+    padding-top: 1em;
+    overflow: auto;
+    background-color: #FFFFFF;
+    margin-right: 2em; 
+    margin-left: 2em; 
+    margin-bottom: 2em;
+    padding-right: 1em; 
+    padding-left: 1em; 
+    padding-bottom: 1em;
+    word-wrap: break-word;
+    color: #282A2D;
+}
+
+.entryadventures p {
+    color: #282A2D;
+    text-align: justify;
+}
+
+.entryadventure p {
+    color: #282A2D;
+    text-align: justify;
+    padding-right: 2em;
+}
+
+#guidelink {
+    color: #F04531;
+}
+
+
+
+
+
+
+/* --------------------------------------------------- FOOTER ---------------------------------------------------- */
+
+/* FOOTER NAVIGATION */
+#footerlinks {
+    border-top: medium solid #12607E;
+    border-bottom: thin solid #12607E;
+    padding: 0;
+}
+
+#footerlinks li {
+    display:inline-block;
+} 
+
+#footerlinks li a {
+    display:inline-block;
+    padding: .63em;
+    text-decoration: none;
+    width: 7em;
+    font-family: "Andale Mono", "Times New Roman", serif; 
+    font-size: 1.35em;
+    color: #FFFFFF;
+}
+
+#footerlinks ul {
+    position:absolute;
+    left:-625em;
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+
+#footerlinks ul li {
+    display:inline-block;
+}
+
+#footerlinks li:hover a {
+    text-decoration:none;
+    color: #D8C7A9;
+    font-weight: bold; 
+    font-family: "Andale Mono", "Times New Roman", serif; 
+    font-size: 1.35em;
+}
+
+#footerlinks ul li a {
+    white-space:nowrap;
+    display:inline-block;
+    color: #D8C7A9;
+    text-decoration: none;
+} 
+
+#footerlinks ul li a:hover {
+    text-decoration:none;
+    background: #D8C7A9;
+}
+
+#copyright {
+    color: #FFAA33;
+}
+
+footer {
+    font-size: .75em;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F04531;
+    padding-top: 3em;
+}
+
+
+/*  CONTACT PAGE */
+#contactpage {
+    width: 50%; 
+    padding: 1.2em;
+    margin: .69em; 
+    padding-top: 6em;
+    float: left;
+}
+
+hr {
+    color: #D8C7A9;
+}
+
+#contactform {
+    padding-top: 2em;
+} 
+
+.contactme {
+    width: 55%;
+    border: medium solid #35B169;
+    margin-top: 8em;
+    background-color: #12607E;
+    margin-left: 2em; 
+    margin-right: 2em; 
+    margin-bottom: auto; 
+    float: left;
+}
+
+#contactform label {
+    color: #F04531;
+} 
+
+#contactform input.forminput, #message {
+    font-size: .85em;
+    color: #282A2D;
+    width: 99%;
+}
+
+#contactform input.sendbutton {
+    width: 30%; 
+    float: left; 
+    margin-top: 2%;
+    color: #282A2D;
+}
+
+aside {
+    width: 23%;
+    padding: 1.4em;
+    margin: 3.6em;
+    padding-top: 10em;
+    float: right;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#mediaaside {
+    display: none;
+}
+
+aside p {
+    line-height: .5em;
+}
+
+.contactparagraph {
+    font-family: "Andale Mono", "Times New Roman", serif; 
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: .5em;
+    color: #FFAA33;
+}
+
+.mediacontactparagraph {
+    display: none;
+}
+
+/* ASSESSMENT PAGES */
+.assessments {
+    width: 93%;
+    border: medium solid #35B169;
+    margin-top: 8em;
+    background-color: #12607E;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: auto; 
+}
+
+.assessments1 {
+    width: 93%;
+    border: medium solid #35B169;
+    margin-top: .94em;
+    background-color: #12607E;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: .94em; 
+}
+
+.article {
+    color: #282A2D;
+}
+
+.entry {
+    border: medium double #35B169;
+    padding-top: 1em;
+    overflow: auto;
+    background-color: #FFFFFF;
+    display: block;
+    margin-right: 2em; 
+    margin-left: 2em; 
+    margin-bottom: 2em;
+    padding-right: 1em; 
+    padding-left: 1em; 
+    padding-bottom: 1em; 
+} 
+
+.entry table {
+    width: 100%;
+}
+
+
+/* RESOURES */ 
+#photocredit {
+    width: 48%; 
+    text-align: left;
+    font-family: "Andale Mono", "Times New Roman", serif; 
+    color: #FFAA33;
+    font-size: 1.25em;
+} 
+
+#photoreference {
+    width: 52%;
+    text-align: left;
+    font-family: "Andale Mono", "Times New Roman", serif; 
+    color: #FFAA33;
+    font-size: 1.25em;
+}
+
+
+/* SITE PLAN */
+.justify {
+    text-align: justify;
+}
+
+figcaption {
+    text-align: center
+}
+
+figure.personafig {
+    margin: 0em;
+    padding: 0em;
+    float: none;
+}
+
+.personapic {
+    border: medium double #35B169;
+    width: 7.8em;
+    height: 7.8em;
+}
+
+.personacap {
+    text-align: left;
+}
+
+targetlist {
+    display: inline-block;
+    float: left;
+} 
+
+#sitemap {
+    border: medium solid #FFFFFF;
+    padding: .625em;
+    width: 97%;
+}
+
+tr.colorscheme {
+    text-align: center;
+}
+
+#white {
+    color: #000000;
+    background-color: #FFFFFF;
+    border: thin solid #000000;
+    padding-top: .625em;
+    padding-bottom: .625em;
+}
+
+#yellow {
+    color: #000000;
+    background-color: #FFAA33;
+    border-top: thin solid #000000;
+    border-bottom: thin solid #000000;
+    border-right: thin solid #000000;
+    padding-top: .625em;
+    padding-bottom: .625em;
+}
+
+#green {
+    color: #000000;
+    background-color: #35B169;
+    border-top: thin solid #000000;
+    border-bottom: thin solid #000000;
+    border-right: thin solid #000000;
+    padding-top: .625em;
+    padding-bottom: .625em;
+}
+
+#blue {
+    color: #000000;
+    background-color: #12607E;
+    border-top: thin solid #000000;
+    border-bottom: thin solid #000000;
+    border-right: thin solid #000000;
+    padding-top: .625em;
+    padding-bottom: .625em;
+}
+
+#red {
+    color: #000000;
+    background-color: #F04531;
+    border-top: thin solid #000000;
+    border-bottom: thin solid #000000;
+    border-right: thin solid #000000;
+    padding-top: .625em;
+    padding-bottom: .625em;
+}
+
+#lightgray {
+    color: #000000;
+    background-color: #D8C7A9;
+    border-top: thin solid #000000;
+    border-bottom: thin solid #000000;
+    border-right: thin solid #000000;
+    padding-top: .625em;
+    padding-bottom: .625em;
+}
+
+#darkgray {
+    color: #FFFFFF;
+    background-color: #282A2D;
+    border-top: thin solid #000000;
+    border-bottom: thin solid #000000;
+    border-right: thin solid #000000;
+    padding-top: .625em;
+    padding-bottom: .625em;
+}
+
+#black {
+    color: #FFFFFF;
+    background-color: #000000;
+    border-top: thin solid #000000;
+    border-bottom: thin solid #000000;
+    border-right: thin solid #000000;
+    padding-top: .625em;
+    padding-bottom: .625em;
+}
+
+#typoitem {
+    width: 30%;
+    text-align: left;
+    font-family: "Andale Mono", "Times New Roman", serif;
+    font-size: large;
+}
+
+#typofont {
+    text-align: left;
+    font-family: "Andale Mono", "Times New Roman", serif;
+    font-size: large;
+}
+
+#typosize {
+    width: 13%;
+    text-align: left;
+    font-family: "Andale Mono", "Times New Roman", serif;
+    font-size: large;
+}
+
+#typocolor {
+    width: 15%;
+    text-align: left;
+    font-family: "Andale Mono", "Times New Roman", serif;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------------ MEDIA QUERIES ------------------------------------------------ */
+
+ 
+
+@media screen and (max-device-width: 800px) {
+    
+    .logo {
+        display: none;
+    } 
+    
+    .mediakayak {
+        display: block;
+        width: 25%;
+        position: absolute; 
+        margin-left: 32%;
+        border: medium double #35B169;
+        z-index: 1;
+    
+    }
+    
+    #medialogo {
+        display: inline-block;
+        font-family: "Baskerville Old Face", "Times New Roman", serif;
+        font-size: 2em;
+        font-weight: bold;
+        color: #F04531;
+        margin-top: .5em; 
+        margin-bottom: .5em;
+        text-align: left;
+        position: absolute;
+        margin-left: 11.5%; 
+        z-index: 10;
+        padding-top: 3em;
+    }
+    
+    #slogan {
+        display: none;
+    }
+    
+    ul.breadcrumbs {
+        padding-top: 12%;
+        padding-left: 0%;
+    }
+
+    ul.breadcrumbs li+li:before {
+    padding: 0em; 
+    color: #F04531;
+    content: "> ";
+    }
+    
+    #navbar {
+        width: 100%;
+        font-size: 1em;
+        height: 3em;
+        margin-top: 10em;
+    }
+    
+    #navbar li {
+        padding-top: 1em;
+    }
+    
+    #navbar li a {
+        width: 8em;
+    }
+    
+    #wrapper {
+        width: 90%;
+    }
+    
+    footer {
+        font-size: .5em;
+    }
+    
+    .adventures, .guides, .article {
+        display: block;
+        width: 100%;
+    }
+    
+    .entryadventures, .entryguides, .entryadventure, .entryguide, .entry {
+        height: 100%;
+    }
+    
+    .adventuresmain, .guidesmain, .assessments, .assessments1 {
+        width: 100%;
+    }
+    
+    .mediamaincontent {
+        display: block;
+        width: 88%; 
+        padding-top: 3em;
+        margin-left: auto; 
+        margin-right: auto; 
+        color: #FFFFFF;
+    } 
+
+    .maincontent {
+        display: none;
+    }
+    
+    .riverblurb {
+        display: none;
+    }
+    
+    .mediariverblurb {
+        display: block;
+        width: 88%;
+        margin-top: 3%;
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-bottom: auto; 
+        padding: 1em; 
+        text-align: justify;
+        color: #F04531
+    }
+      
+    .mediariverblurb p {
+        color: #FFFFFF;
+        font-size: 1em;
+    }
+
+    .mediariverblurb p span {
+        color: #12607E;
+        font-size: 1.5em;
+    }
+    
+    #mediacarousel {
+        display: block;
+        width: 100%;
+    }
+
+    aside {
+    display: none;
+    }
+    
+    #mediaaside {
+    display: inline;
+    width: 88%;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    margin-right: auto; 
+    margin-left: auto;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-top: 3em;
+}
+
+    #mediaaside p {
+        line-height: .5em;
+    }
+    
+    .contactme {
+        width: 100%;
+        margin-right: auto; 
+        margin-left: auto;
+        padding-top: 0em;
+        margin-top: 0em;
+    }
+    
+    .contactparagraph {
+        display: none;
+    }
+    
+    .mediacontactparagraph {
+        display: inline;
+        font-family: "Andale Mono", "Times New Roman", serif; 
+        font-size: 1.25em;
+        font-weight: bold;
+        line-height: .5em;
+        color: #FFAA33;
+    }
+    
+    #mediatable tbody tr td {
+        font-size: .6em;
+    } 
+    
+    #medialist tr th, #medialist tr td {
+        font-size: .6em;
+    }
+
+}
+    
+
+@media screen and (max-device-width: 400px) {
+   
+    .logo {
+        display: none;
+    } 
+    
+    .mediakayak {
+        display: block;
+        width: 25%;
+        position: absolute; 
+        margin-left: 30.5%;
+        border: medium double #35B169;
+        z-index: 1;
+    
+    }
+    
+    #medialogo {
+        display: inline-block;
+        font-family: "Baskerville Old Face", "Times New Roman", serif;
+        font-size: 1em;
+        font-weight: bold;
+        color: #F04531;
+        margin-top: .5em; 
+        margin-bottom: .5em;
+        text-align: left;
+        position: absolute;
+        margin-left: 11.5%; 
+        z-index: 10;
+        padding-top: 3em;
+    }
+    
+    #slogan {
+        display: none;
+    }
+
+    ul.breadcrumbs {
+        padding-top: 12%;
+        padding-left: 0%;
+    }
+
+    ul.breadcrumbs li+li:before {
+    padding: 0em; 
+    color: #F04531;
+    content: "> ";
+    }
+    
+    #navbar {
+        display: none;
+    }
+    
+    #medianavbar {
+        display: inline-block;
+        width: 100%;
+        font-size: .75em;
+        height: 3em;
+        border-bottom: medium solid #12607E;
+        margin-top: 6em;
+        float: right;
+        text-align: end;
+        font-family: "Andale Mono", "Times New Roman", serif;
+        padding-left: 0em;
+    }
+    
+    #medianavbar li {
+        display: inline-block;
+        padding-top: 1em;
+    }
+    
+    #medianavbar a {
+    display:inline-block;
+    text-decoration: none;
+    width: 7.5em; 
+    text-align: center;
+    border-right: thin solid #35B169;
+    color: #FFFFFF;
+    }
+    
+    #mediacontact a {
+        border-right: none;
+    }
+    
+    #wrapper {
+        width: 88%;
+    }
+    
+    footer {
+        font-size: .5em;
+    }
+    
+    #footerlinks li.mediafooter {
+        display: none;
+    }
+    
+    .adventuresmain, .guidesmain, assessments, .assessments1 {
+        width: 88%;
+    }
+    
+    .adventures, .guides, .article {
+        display: block;
+        width: 100%;
+    } 
+    
+    .entryadventures {
+        height: 25em;
+        border: medium double #35B169;
+        padding-top: 1em;
+        overflow: auto;
+        background-color: #FFFFFF;
+        margin-right: 1em; 
+        margin-left: 1em; 
+        margin-bottom: 2em;
+        padding-right: 1em; 
+        padding-left: 1em; 
+        padding-bottom: 1em;
+        padding-top: 1em;
+        color: #282A2D;
+    }
+    
+    .entryguides {
+        height: 29em;
+        border: medium double #35B169;
+        padding-top: 1em;
+        overflow: auto;
+        background-color: #FFFFFF;
+        margin-right: 1em; 
+        margin-left: 1em; 
+        margin-bottom: 2em;
+        padding-right: 1em; 
+        padding-left: 1em; 
+        padding-bottom: 1em;
+        padding-top: 1em;
+        color: #282A2D;
+    }
+    
+    .entryadventure {
+        height: 35em;
+        border: medium double #35B169;
+        padding-top: 1em;
+        background-color: #FFFFFF;
+        margin-right: 1em; 
+        margin-left: 1em; 
+        margin-bottom: 2em;
+        padding-right: 1em; 
+        padding-left: 1em; 
+        padding-bottom: 1em;
+        padding-top: 1em;
+        color: #282A2D;
+    }
+    
+    .entryguide {
+        height: 48em;
+        border: medium double #35B169;
+        padding-top: 1em;
+        background-color: #FFFFFF;
+        margin-right: 1em; 
+        margin-left: 1em; 
+        margin-bottom: 2em;
+        padding-right: 1em; 
+        padding-left: 1em; 
+        padding-bottom: 1em;
+        padding-top: 1em;
+        color: #282A2D;
+    }
+    
+    .entryadventures p, .entryadventure p,  .entryguides p, .entryguide p {
+        color: #282A2D;
+        text-align: justify;
+        width: 90%;
+        margin-right: auto; 
+        margin-left: auto;
+    }
+    
+    .mediamaincontent {
+        display: block;
+        width: 88%; 
+        padding-top: 3em;
+        margin-left: auto; 
+        margin-right: auto; 
+        color: #FFFFFF;
+    } 
+
+    .maincontent {
+        display: none;
+    }
+    
+    .riverblurb {
+        display: none;
+    }
+    
+    .mediariverblurb {
+        display: block;
+        width: 88%;
+        margin-top: 3%;
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-bottom: auto; 
+        padding: 1em; 
+        text-align: justify;
+        color: #F04531
+    }
+      
+    .mediariverblurb p {
+        color: #FFFFFF;
+        font-size: 1em;
+    }
+
+    .mediariverblurb p span {
+        color: #12607E;
+        font-size: 1.5em;
+    }
+    
+    #mediacarousel {
+        display: block;
+        width: 100%;
+    }
+    
+    #carousel {
+        display: none;
+    }
+
+    aside {
+    display: none;
+    }
+    
+    #mediaaside {
+    display: inline;
+    width: 88%;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    margin-right: auto; 
+    margin-left: auto;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-top: 3em;
+}
+
+    #mediaaside p {
+        line-height: .5em;
+    }
+    
+    .contactme {
+        width: 100%;
+        margin-right: auto; 
+        margin-left: auto;
+        padding-top: 0em;
+        margin-top: 0em;
+    }
+    
+    .contactparagraph {
+        display: none;
+    }
+    
+    .mediacontactparagraph {
+        display: inline;
+        font-family: "Andale Mono", "Times New Roman", serif; 
+        font-size: 1.25em;
+        font-weight: bold;
+        line-height: .5em;
+        color: #FFAA33;
+    }
+    
+    .guidespic {
+        border: medium double #35B169;
+        width: 99%;
+    }
+    
+    .adventurespic {
+        border: medium double #35B169;
+        width: 99%;
+    }
+
+}
